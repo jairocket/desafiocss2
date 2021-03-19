@@ -50,7 +50,7 @@ header > button {
         width: 128px;
     }
     
-    .navbar > a{
+    .navbar > a, .navbar > div {
         
         color: black;
         font-family: Karla;
@@ -58,9 +58,24 @@ header > button {
         text-decoration: none;
         font-weight: 400;
         line-height: 29px;
-        letter-spacing: 0em;
-        flex-wrap: wrap;
+        letter-spacing: 0em;        
+    }
+
+    .navbar> div{
+        margin-right: 40px;
+    }
+
+    .navbar > div > p {
         
+        font-family: 'Times New Roman', Times, serif;   
+        font-size: 30px;
+        text-align: center;
+    }
+    .navbar > div > a{
+        font-family: Karla;
+        color: black;
+        text-decoration: none;
+        text-align: center;
     }
   
 }
