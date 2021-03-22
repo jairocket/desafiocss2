@@ -4,6 +4,7 @@
     outline: 0;   
     padding: 0;
     margin: 0;
+    font-family: Karla;
 }
 
 @font-face{
@@ -88,4 +89,71 @@ header > button {
     .hamburguer-menu {
         display: none;
     }
+}
+
+main {
+    background-color: #212121;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 0 158px 0;    
+}
+main > h1{
+    margin: 40px 0 20px;
+    font-weight: normal;
+    font-size: 3.5rem;
+    
+}
+
+main > div > div > h2{
+    font-size: 3.5rem;
+    font-weight: normal;
+    letter-spacing: 4px;
+    border-bottom: 20px;
+}
+
+.mewtwo{
+    display: flex;
+    justify-content: space-between;
+    height: 426px;
+    border-top: 2px solid white;
+    padding: 50px 40px 50px 0;
+       
+}
+
+.mewtwo > div{
+    display: flex;
+    flex-direction: column;
+    width: 40%
+
+}
+
+main > div{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.mewtwo > div > div{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.habilities > div{
+    margin: 10px 40px 0 0;
+}
+
+.progress-bar{
+    border-radius: 25px;
+    background: white;
+}
+
+.progress-bar > div{
+    height: 7px;
+    width: 80%;
+    background: #F5DB13;
+    border-radius: 25px;
+
 }
